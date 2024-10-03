@@ -22,6 +22,7 @@ function RightSide() {
   // Função para lidar com a mudança nos campos do formulário
   const estadoFormulario = (e) => {
     const { name, value } = e.target; // Extrai o nome e o valor do campo
+    //essa parte aqui do prev, eu peguei da documentação do react.js não vou mentir kkakakak, se ignorar humilde
     setCampos(prev => ({ ...prev, [name]: value })); // Atualiza o estado dos campos mantendo os anteriores
   };
 

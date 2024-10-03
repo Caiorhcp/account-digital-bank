@@ -1,14 +1,14 @@
-import React from 'react';
-import LeftPage from './LeftPage';
-import RightPage from './RightPage';
+// HomePage.jsx
+import LeftSide from './LeftSide';
+import RightSide from './RightSide';
 
-function HomePage() {
+const HomePage = () => {
   return (
-    <div className="home-page">
-      <LeftPage />
-      <RightPage />
-    </div>
+    <main className="flex">
+      <LeftSide />
+      <RightSide />
+    </main>
   );
-}
+};
 
 export default HomePage;
